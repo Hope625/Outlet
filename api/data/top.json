@@ -1,0 +1,63 @@
+[
+    {
+        "myaccount":
+        [
+            {
+                "text":"My wallet",
+                "src":"#"
+            },{
+                "text":"My Orders",
+                "src":"#"
+            },{
+
+                "text":"My Profile",
+                "src":"#"
+            },{
+                "text":"My Coupons",
+                "src":"#"
+            },{
+                "text":"Wish List",
+                "src":"#"
+            },{
+                "text":"My Messages",
+                "src":"#"
+            }       
+        ],
+        "cart":
+        [
+            {"imgurl":"../images/items1.png",
+            "src":"#",
+            "text":"Gucci Vintage Web Leather Boston Tote Bag 247205 Red",
+            "cart_price":"$219",
+            "cart_count":1
+            },
+            {"imgurl":"../images/items2.png",
+            "src":"#",
+            "text":"Gucci Vintage Web Leather Boston Tote Bag 247205 Red",
+            "cart_price":"$219",
+            "cart_count":1
+            },
+            {"imgurl":"../images/items3.png",
+            "src":"#",
+            "text":"Gucci Vintage Web Leather Boston Tote Bag 247205 Red",
+            "cart_price":"$219",
+            "cart_count":1
+            }
+        ],
+        "hotsearch":
+        [
+            {
+                "src":"#",
+                "text":"LV handbags"
+            },
+            {
+                "src":"#",
+                "text":"shoes"
+            },
+            {
+                "src":"#",
+                "text":"Rolex watch"
+            }
+        ]
+    }
+]

@@ -1,0 +1,299 @@
+/*引入公共样式*/
+@import url("css_common.css");
+
+/*登录注册*/
+#min{
+    overflow: hidden;
+}
+#min .container{
+    height:52px;
+    border-top: 3px solid #CFCFCF;
+    border-bottom: 2px solid #404040;
+}
+#min .container h3{
+    padding-top: 24px;
+    font-weight: bold;
+}
+#content .container{
+    height:389px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+#content .container .fl{
+    width:449px;
+    border-right: 1px dashed #999999;
+    height:389px;
+
+}
+#content .container form{
+    margin-left: 31px;
+    position:relative;
+}
+#content .container .fl form .tips{
+    position:absolute;
+    top: -10%;
+    left:0;
+    color:#FF0000;
+    font-size: 10px;
+}
+#content .container form label{
+    margin-top: 24px;
+    display:block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 10px;
+    width:150px;
+}
+#content .container form #code{
+    display:inline-block;
+    margin-right: 10px;
+}
+#content .container form #showCode{
+    display:inline-block;
+    background:rgba(115, 220, 210, 0.7);
+    width:50px;
+    height:22px;
+    text-align: center;
+    line-height: 22px;
+    vertical-align: bottom;
+    font-style: italic;
+    color:#f60;
+    font-family:KaiTi_GB2312;
+}
+#content .container form input{
+    width:344px;
+    height:36px;
+    border:1px solid #ccc;
+    display:block;
+}
+#content .container form #code{
+    width:60px;
+    height:20px;
+}
+#content .container form #submit,#btnRegister{
+    width:66px;
+    height:32px;
+    margin-top: 16px;
+    background:#F88B1A;
+    color: #FFFFFF;
+}
+#content .container form #btnRegister{
+    background:#ccc;
+}
+#content .container .fr{
+    width:530px;
+    height:389px;
+    font-size: 10px;
+}
+
+#content .container .fr ul{
+    width:344px;
+    height:42px;
+    background-color: #FFFFCC;
+    border:1px dashed #FF4500;
+    line-height: 20px;
+    margin-left: 70px;
+}
+#content .container .fr ul li:nth-child(1){
+    color:#FF4542;
+    margin-left: 6px;
+}
+#content .container .fr ul li:nth-child(2) span{
+    margin-left: 10px;
+    color:#22906F;
+}
+#content .container .fr ul li:nth-child(2) a{
+    float:right;
+    color:#000000;
+    text-decoration:underline;
+}
+#content .container .fr form {
+    margin-left: 70px;
+    position:relative;
+}
+#content .container .fr form .tips_0{
+    position:absolute;
+    top: -5%;
+    left:0;
+    color:#FF0000;
+    font-size: 10px;
+}
+#content .container .fr form label{
+    margin-top: 12px;
+}
+#content .container .fr form #email_1{
+    margin-top: 21px;
+}
+#content .container .fr form .notes{
+    color:#A699B3;
+}
+#content .container .fr form input{
+    height:30px;
+}
+#content .container .fr form #check{
+    width:12px;
+    height:12px;
+    display:inline-block;
+}
+#content .container .fr form #check_0{
+    width:12px;
+    height:12px;
+    display:inline-block;
+}
+#content .container .fr form #chec{
+    display:inline-block;
+}
+
+#content .container .fr form .clause a{
+    text-decoration: underline;
+}
+#content .container .fr form #btnRegister{
+    width:66px;
+    height:32px;
+}
+
+/*底部*/
+#footer{
+    overflow: hidden;
+}
+#footer .container{
+    height:220px;
+    border-top: 2px solid #5A5A5A;
+}
+.footer_top{
+    height:120px;
+   padding-left: 6px;
+}
+.footer_top dl{
+    float:left;
+    font-size: 12px;
+    margin-right: 50px;
+
+}
+.footer_top dl:last-child{
+    margin-right: 0px;
+}
+.footer_top dl dt a{
+    line-height: 23px;
+    margin-top: 3px;
+    font-weight: bold;
+    color:#333333;
+}
+.footer_top .community dd{
+    margin-bottom: 8px;
+}
+.footer_top dd a{
+    color:#333333;
+}
+.footer_top .community dd a span{
+    padding-left:8px;
+    color:#D5691E;
+}
+.footer_top .community dd a i{
+    padding-left: 26px;
+    color:#5A3D33;
+    font-style: italic;
+     display:block;
+    line-height: 6px;
+}
+.footer_top .community dd::before{
+    content:'';
+    display:inline-block;
+    color:#D56966;
+    width:18px;
+    height:18px;
+    background:url(../images/sprites.png) no-repeat;
+    margin-bottom: -8px;
+}
+.footer_top dd.one::before{
+    background-position: -782px -782px;
+}
+.footer_top dd.tow::before{
+    background-position: -742px -782px;
+}
+.footer_top dd.three::before{
+    background-position: -702px -782px;
+}
+.footer_top .community_0{
+    position:relative;
+    width:200px;
+    height:84px;
+    position:relative;
+    margin-top: 12px;
+    margin-left: 40px;
+}
+.footer_top .community_0 .community_sprites::before{
+    content:'';
+    position:absolute;
+    left:-43px;
+    width:41px;
+    height:84px;
+    border-left: 1px solid #CCCCCC;
+    background:url(../images/sprites.png) no-repeat;
+    background-position: -600px -738px;
+}
+.footer_top .community_0 .tips_1{
+    position:absolute;
+    top: -14%;
+    left:0;
+    color:#FF0000;
+    font-size: 10px;
+}
+.footer_top .community_0 dd .community_01{
+    display:block;
+    width:172px;
+    height:22px;
+    border:1px solid #5A5A5A;
+    margin-top: 6px;
+    line-height: 22px;
+    margin-bottom: 6px;
+}
+.footer_top .community_0 .community_02{
+    width:80px;
+    height:22px;
+    background:#454545;
+    text-align: center;
+    line-height: 22px;
+}
+.footer_top .community_0 .community_02 input{
+    background:#464646;
+    color:#ccc;
+    font-size: 10px;
+}
+.footer_top .community_0 .community_02 .one::before{
+    content:'';
+    display:inline-block;
+    width:16px;
+    height:11px;
+    background:url(../images/sprites.png) no-repeat;
+    background-position: -664px -788px;
+}
+.footer_bottom{
+    height:100px;
+    position:relative;
+}
+.footer_bottom ul{
+    width:735px;
+    height:32px;
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    display:block;
+}
+.footer_bottom ul li{
+    float:left;
+}
+.footer_bottom .manufacturer{
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform:translate(-50%, 0);
+    display:block;
+    font-size: 12px;
+}
+.footer_bottom .manufacturer span{
+    color:#FF4552;
+    margin-right: 15px;
+
+}

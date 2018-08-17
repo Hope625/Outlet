@@ -1,0 +1,16 @@
+class子级命名用下划线 _
+js命名用驼峰
+注！要写注释！！！！！
+
+盒模型统一用box-sizing:border-box
+
+如果要在base中加东西，需要团队商量
+代码尽可能要见名知意
+
+
+#top
+#header
+#nav
+#banner
+#main
+#footer
